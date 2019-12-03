@@ -30,10 +30,10 @@ app.get('/cotacao', (req, res) => {
         })
     }
 })
-
+  
 app.listen(port, err => {
     if (err) {
-        console.log('Não foi possivel iniciar')
+        console.log('Nao foi possivel iniciar')
     } else {
         console.log('convertmymoney está online')
     }
